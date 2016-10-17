@@ -11,7 +11,11 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo 'Hello github Ja'
+        echo 'Hello github Ja';
+        echo '<hr>';
+        
+        $arr=['delphi','php','java','javascript'];
+        print_r($arr);
         // put your code here
         ?>
     </body>
